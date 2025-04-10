@@ -21,7 +21,8 @@
       "URL": "https://rstudio.github.io/renv/, https://github.com/rstudio/renv",
       "BugReports": "https://github.com/rstudio/renv/issues",
       "Imports": [
-        "utils"
+        "utils",
+        "quarto"
       ],
       "Suggests": [
         "BiocManager",
