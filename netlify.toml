@@ -15,6 +15,3 @@
 
 # Ignore Puppeteer and Node.js dependencies
   ignore = "node_modules"
-
-[[plugins]]
-package = "@quarto/netlify-plugin-quarto"
