@@ -39,7 +39,7 @@ jobs:
           target: netlify
           project: _publish.yml
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
 
       - name: Debug Quarto
         run: quarto check
