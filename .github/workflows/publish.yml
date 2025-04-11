@@ -37,6 +37,7 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: netlify
+          project: _publish.yml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
