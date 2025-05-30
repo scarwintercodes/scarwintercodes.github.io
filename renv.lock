@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.4.2",
+    "Version": "4.3.2",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -21,8 +21,7 @@
       "URL": "https://rstudio.github.io/renv/, https://github.com/rstudio/renv",
       "BugReports": "https://github.com/rstudio/renv/issues",
       "Imports": [
-        "utils",
-        "quarto"
+        "utils"
       ],
       "Suggests": [
         "BiocManager",
@@ -49,8 +48,7 @@
         "uuid",
         "waldo",
         "yaml",
-        "webfakes",
-        "quarto"
+        "webfakes"
       ],
       "Encoding": "UTF-8",
       "RoxygenNote": "7.3.2",

@@ -7,7 +7,11 @@ execute:
 
 website:
   title: "Scar Winter Kelsey | ScarData"
+<<<<<<< Updated upstream
   site-url: https://scardata.quarto.pub
+=======
+  site-url: https://scardata.quarto.pub/
+>>>>>>> Stashed changes
   google-analytics: G-3F6HDZT979
   open-graph: true
   cookie-consent:
