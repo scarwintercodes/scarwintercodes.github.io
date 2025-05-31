@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Data modernization, management, and governance standards">
 
-<title>index – Scar Winter Kelsey | ScarData TEST</title>
+<title>YRBS Data Management – Scar Winter Kelsey | ScarData TEST</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -103,8 +104,12 @@ cookieconsent.run({
 
 
 <link rel="stylesheet" href="styles.scss">
-<meta property="og:title" content="index – Scar Winter Kelsey | ScarData TEST">
+<meta property="og:title" content="YRBS Data Management – Scar Winter Kelsey | ScarData TEST">
+<meta property="og:description" content="Data modernization, management, and governance standards">
+<meta property="og:image" content="https://94b71e6f-5b92-46e7-a989-c9376e9c5df9.netlify.app/projects/2 - yrbs-data-management/EDIT.png">
 <meta property="og:site_name" content="Scar Winter Kelsey | ScarData TEST">
+<meta property="og:image:height" content="340">
+<meta property="og:image:width" content="831">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -166,9 +171,19 @@ cookieconsent.run({
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">index</h1>
-</div>
+<h1 class="title">YRBS Data Management</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Context</div>
+    <div class="quarto-category">Challenge</div>
+    <div class="quarto-category">Solution</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Data modernization, management, and governance standards
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -183,8 +198,20 @@ cookieconsent.run({
 </header>
 
 
+<section id="context" class="level2">
+<h2 class="anchored" data-anchor-id="context">Context</h2>
+<p>The Youth Risk Behavior Survey is a bi-yearly survey conducted by the CDC across United States high schools. The <a href="https://www.editnorthwestern.com/research#yrbs-ro1">EDIT Team</a> within Northwestern University’s Feinberg School of Medicine uses these results to illuminate and affirm the experiences of sexual minority youth (SMY), especially those living at the intersections of multiply marginalized identities of sex and race/ethnicity.</p>
+</section>
+<section id="challenge" class="level2">
+<h2 class="anchored" data-anchor-id="challenge">Challenge</h2>
+<p>The Northwestern EDIT team works extensively to integrate new YRBS data with our pre-existing pooled datasets which span back to 2005. We additionally collaborate with several municipalities to draft Data Usage Agreements to grant us permission to use their own version of the YRBS. Our original analytic stack only consisted of SAS and STATA, both closed-source languages with limited analytical capabilities. <strong>Our large collection of data necessitates more efficient ways to explore, clean, and analyze the data.</strong></p>
+</section>
+<section id="solution" class="level2">
+<h2 class="anchored" data-anchor-id="solution">Solution</h2>
+<p>I led the charge to expand our analytical stack to include R, which has open source capabilities to speed up analysis timelines and expand our analytical capabilities. <strong>We extensively tested the <a href="https://www.rdocumentation.org/packages/survey/versions/4.4-2">survey package</a> to ensure the data was properly weighted to control population variation across jurisdictions.</strong> Additionally, our team has drafted several SOP’s to standardize our data integration process and translate analytical techniques across SAS, STATA, and R.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

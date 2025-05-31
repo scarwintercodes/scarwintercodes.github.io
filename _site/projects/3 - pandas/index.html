@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Automating data validation in NumPy and pandas for clinical data">
 
-<title>index – Scar Winter Kelsey | ScarData TEST</title>
+<title>Data Validation Automation – Scar Winter Kelsey | ScarData TEST</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -103,7 +104,9 @@ cookieconsent.run({
 
 
 <link rel="stylesheet" href="styles.scss">
-<meta property="og:title" content="index – Scar Winter Kelsey | ScarData TEST">
+<meta property="og:title" content="Data Validation Automation – Scar Winter Kelsey | ScarData TEST">
+<meta property="og:description" content="Automating data validation in NumPy and pandas for clinical data">
+<meta property="og:image" content="https://94b71e6f-5b92-46e7-a989-c9376e9c5df9.netlify.app/projects/3 - pandas/pandas.jpg">
 <meta property="og:site_name" content="Scar Winter Kelsey | ScarData TEST">
 </head>
 
@@ -166,9 +169,19 @@ cookieconsent.run({
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">index</h1>
-</div>
+<h1 class="title">Data Validation Automation</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Context</div>
+    <div class="quarto-category">Challenge</div>
+    <div class="quarto-category">Solution</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Automating data validation in NumPy and pandas for clinical data
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -183,8 +196,20 @@ cookieconsent.run({
 </header>
 
 
+<section id="context" class="level2">
+<h2 class="anchored" data-anchor-id="context">Context</h2>
+<p>We worked with millions of rows of messy, user-input data. This data needed to be validated and cleaned before it entered our ETL software.</p>
+</section>
+<section id="challenge" class="level2">
+<h2 class="anchored" data-anchor-id="challenge">Challenge</h2>
+<p>The data validation and cleaning process was highly manual: changing values in Excel to match the expected input within our internal system. There was no universal validation standard, which left large room for error. <strong>Data validation took 3 business days to complete,</strong> which was an exceptionally long time based on team size and capacity.</p>
+</section>
+<section id="solution" class="level2">
+<h2 class="anchored" data-anchor-id="solution">Solution</h2>
+<p>We utilized Python to write functions to standardize and automate the data validation and cleaning process. We used the <strong>pandas</strong> and <strong>NumPy</strong> libraries to conduct the essential data analysis tasks. These included validating data for accurate totals, flagging anomalies associated with operating costs, and ensuring completeness in critical fields (e.g.&nbsp;ID numbers, department codes, dates, etc.) Scripts scanned selected files we received from clients, flagged discrepancies, and normalized the files into a format we could then review and load into our ETL system much sooner. <strong>Data validation time was cut by 50%.</strong></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
