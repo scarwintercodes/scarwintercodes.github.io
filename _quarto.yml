@@ -6,7 +6,7 @@ execute:
   freeze: auto
 
 website:
-  title: "Scar Winter Kelsey | ScarData"
+  title: "Scar Winter Kelsey | ScarData TEST"
   site-url: https://scardata.quarto.pub/
   google-analytics: G-3F6HDZT979
   open-graph: true
