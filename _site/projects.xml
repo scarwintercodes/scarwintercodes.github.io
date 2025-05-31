@@ -5,12 +5,12 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>Scar Winter Kelsey | ScarData TEST</title>
+<title>Scar Winter Kelsey | ScarData</title>
 <link>https://scardata.quarto.pub/scar-winter-kelsey--scardata-test/projects.html</link>
 <atom:link href="https://scardata.quarto.pub/scar-winter-kelsey--scardata-test/projects.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.6.42</generator>
-<lastBuildDate>Sat, 31 May 2025 22:52:58 GMT</lastBuildDate>
+<lastBuildDate>Sat, 31 May 2025 22:57:54 GMT</lastBuildDate>
 <item>
   <title>Company Churn Analysis</title>
   <link>https://scardata.quarto.pub/scar-winter-kelsey--scardata-test/projects/1 - company-churn-analysis/</link>
@@ -46,7 +46,7 @@
   <category>Challenge</category>
   <category>Solution</category>
   <guid>https://scardata.quarto.pub/scar-winter-kelsey--scardata-test/projects/1 - company-churn-analysis/</guid>
-  <pubDate>Sat, 31 May 2025 22:52:58 GMT</pubDate>
+  <pubDate>Sat, 31 May 2025 22:57:54 GMT</pubDate>
   <media:content url="https://scardata.quarto.pub/scar-winter-kelsey--scardata-test/projects/1 - company-churn-analysis/lukas-blazek-mcSDtbWXUZU-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -77,7 +77,7 @@
   <category>Challenge</category>
   <category>Solution</category>
   <guid>https://scardata.quarto.pub/scar-winter-kelsey--scardata-test/projects/2 - yrbs-data-management/</guid>
-  <pubDate>Sat, 31 May 2025 22:52:58 GMT</pubDate>
+  <pubDate>Sat, 31 May 2025 22:57:54 GMT</pubDate>
   <media:content url="https://scardata.quarto.pub/scar-winter-kelsey--scardata-test/projects/2 - yrbs-data-management/EDIT.png" medium="image" type="image/png" height="59" width="144"/>
 </item>
 <item>
@@ -108,7 +108,7 @@
   <category>Challenge</category>
   <category>Solution</category>
   <guid>https://scardata.quarto.pub/scar-winter-kelsey--scardata-test/projects/3 - pandas/</guid>
-  <pubDate>Sat, 31 May 2025 22:52:58 GMT</pubDate>
+  <pubDate>Sat, 31 May 2025 22:57:54 GMT</pubDate>
   <media:content url="https://scardata.quarto.pub/scar-winter-kelsey--scardata-test/projects/3 - pandas/pandas.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -146,7 +146,7 @@
   <category>Challenge</category>
   <category>Solution</category>
   <guid>https://scardata.quarto.pub/scar-winter-kelsey--scardata-test/projects/4 - project-ibis/</guid>
-  <pubDate>Sat, 31 May 2025 22:52:58 GMT</pubDate>
+  <pubDate>Sat, 31 May 2025 22:57:54 GMT</pubDate>
   <media:content url="https://scardata.quarto.pub/scar-winter-kelsey--scardata-test/projects/4 - project-ibis/IBIS.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
