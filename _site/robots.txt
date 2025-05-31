@@ -1,1 +1,1 @@
-Sitemap: https://94b71e6f-5b92-46e7-a989-c9376e9c5df9.netlify.app/sitemap.xml
+Sitemap: https://scardata.quarto.pub/scar-winter-kelsey--scardata-test/sitemap.xml
