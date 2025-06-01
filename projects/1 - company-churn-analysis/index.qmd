@@ -8,9 +8,6 @@ categories:
   - "Solution"
 ---
 
-## Skills Highlighted
-
-
 ## Context
 
 In March 2024 I consulted an early education tech (edutech) company to help their engagement team learn more about churn trends and actionable steps to reduce it.
