@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Scar Winter Kelsey | ScarData</title>
+<link>https://scardata.quarto.pub/projects.html</link>
+<atom:link href="https://scardata.quarto.pub/projects.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.6.42</generator>
+<lastBuildDate>Sun, 01 Jun 2025 17:59:24 GMT</lastBuildDate>
+<item>
+  <title>Company Churn Analysis</title>
+  <link>https://scardata.quarto.pub/projects/1 - company-churn-analysis/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="skills-highlighted" class="level2">
+<h2 class="anchored" data-anchor-id="skills-highlighted">Skills Highlighted</h2>
+</section>
+<section id="context" class="level2">
+<h2 class="anchored" data-anchor-id="context">Context</h2>
+<p>In March 2024 I consulted an early education tech (edutech) company to help their engagement team learn more about churn trends and actionable steps to reduce it.</p>
+</section>
+<section id="challenge" class="level2">
+<h2 class="anchored" data-anchor-id="challenge">Challenge</h2>
+<ol type="1">
+<li>What metrics would you recommend the engagement team track to monitor churn?</li>
+<li>What are the key insights from the data?</li>
+<li>The company is aiming to reduce churn by 20% over the next year. Based on the data provided, what strategies would you recommend?</li>
+</ol>
+</section>
+<section id="solution" class="level2">
+<h2 class="anchored" data-anchor-id="solution">Solution</h2>
+<p>This <a href="https://docs.google.com/document/d/1m7MQeXpGnzxUnlaGeJrGRPty_HFwiiTKbGbs-l_MQ00/edit?usp=drive_link">document</a> outlines the analysis I provided, including conducting industry-specific research.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Context</category>
+  <category>Challenge</category>
+  <category>Solution</category>
+  <guid>https://scardata.quarto.pub/projects/1 - company-churn-analysis/</guid>
+  <pubDate>Sun, 01 Jun 2025 17:59:24 GMT</pubDate>
+  <media:content url="https://scardata.quarto.pub/projects/1 - company-churn-analysis/lukas-blazek-mcSDtbWXUZU-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>YRBS Data Management</title>
+  <link>https://scardata.quarto.pub/projects/2 - yrbs-data-management/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="context" class="level2">
+<h2 class="anchored" data-anchor-id="context">Context</h2>
+<p>The Youth Risk Behavior Survey is a bi-yearly survey conducted by the CDC across United States high schools. The <a href="https://www.editnorthwestern.com/research#yrbs-ro1">EDIT Team</a> within Northwestern University’s Feinberg School of Medicine uses these results to illuminate and affirm the experiences of sexual minority youth (SMY), especially those living at the intersections of multiply marginalized identities of sex and race/ethnicity.</p>
+</section>
+<section id="challenge" class="level2">
+<h2 class="anchored" data-anchor-id="challenge">Challenge</h2>
+<p>The Northwestern EDIT team works extensively to integrate new YRBS data with our pre-existing pooled datasets which span back to 2005. We additionally collaborate with several municipalities to draft Data Usage Agreements to grant us permission to use their own version of the YRBS. Our original analytic stack only consisted of SAS and STATA, both closed-source languages with limited analytical capabilities. <strong>Our large collection of data necessitates more efficient ways to explore, clean, and analyze the data.</strong></p>
+</section>
+<section id="solution" class="level2">
+<h2 class="anchored" data-anchor-id="solution">Solution</h2>
+<p>I led the charge to expand our analytical stack to include R, which has open source capabilities to speed up analysis timelines and expand our analytical capabilities. <strong>We extensively tested the <a href="https://www.rdocumentation.org/packages/survey/versions/4.4-2">survey package</a> to ensure the data was properly weighted to control population variation across jurisdictions.</strong> Additionally, our team has drafted several SOP’s to standardize our data integration process and translate analytical techniques across SAS, STATA, and R.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Context</category>
+  <category>Challenge</category>
+  <category>Solution</category>
+  <guid>https://scardata.quarto.pub/projects/2 - yrbs-data-management/</guid>
+  <pubDate>Sun, 01 Jun 2025 17:59:24 GMT</pubDate>
+  <media:content url="https://scardata.quarto.pub/projects/2 - yrbs-data-management/EDIT.png" medium="image" type="image/png" height="59" width="144"/>
+</item>
+<item>
+  <title>Data Validation Automation</title>
+  <link>https://scardata.quarto.pub/projects/3 - pandas/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="context" class="level2">
+<h2 class="anchored" data-anchor-id="context">Context</h2>
+<p>We worked with millions of rows of messy, user-input data. This data needed to be validated and cleaned before it entered our ETL software.</p>
+</section>
+<section id="challenge" class="level2">
+<h2 class="anchored" data-anchor-id="challenge">Challenge</h2>
+<p>The data validation and cleaning process was highly manual: changing values in Excel to match the expected input within our internal system. There was no universal validation standard, which left large room for error. <strong>Data validation took 3 business days to complete,</strong> which was an exceptionally long time based on team size and capacity.</p>
+</section>
+<section id="solution" class="level2">
+<h2 class="anchored" data-anchor-id="solution">Solution</h2>
+<p>We utilized Python to write functions to standardize and automate the data validation and cleaning process. We used the <strong>pandas</strong> and <strong>NumPy</strong> libraries to conduct the essential data analysis tasks. These included validating data for accurate totals, flagging anomalies associated with operating costs, and ensuring completeness in critical fields (e.g.&nbsp;ID numbers, department codes, dates, etc.) Scripts scanned selected files we received from clients, flagged discrepancies, and normalized the files into a format we could then review and load into our ETL system much sooner. <strong>Data validation time was cut by 50%.</strong></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Context</category>
+  <category>Challenge</category>
+  <category>Solution</category>
+  <guid>https://scardata.quarto.pub/projects/3 - pandas/</guid>
+  <pubDate>Sun, 01 Jun 2025 17:59:24 GMT</pubDate>
+  <media:content url="https://scardata.quarto.pub/projects/3 - pandas/pandas.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Project IBIS</title>
+  <link>https://scardata.quarto.pub/projects/4 - project-ibis/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="context" class="level2">
+<h2 class="anchored" data-anchor-id="context">Context</h2>
+<p>During my Master’s program, I led a team of 4 to conduct requirements analysis, data collection, and consulting with FEMA representatives and disaster relief non-profits in Puerto Rico to build a community-driven, geospatial, disaster relief information system.</p>
+</section>
+<section id="challenge" class="level2">
+<h2 class="anchored" data-anchor-id="challenge">Challenge</h2>
+<p>Many Puerto Rican residents living in rural or mountainous areas do not have the means to safely and efficiently evacuate the island during a natural disaster. Furthermore, many rural residents cannot readily transport themselves to a hospital or shelter. In many cases, these residents are often too sick to drive themselves. If they have a designated family member or friend who can transport them, they would have to ensure the roads are clear for vehicles to pass through, which is all the more difficult during a natural disaster.</p>
+</section>
+<section id="solution" class="level2">
+<h2 class="anchored" data-anchor-id="solution">Solution</h2>
+<p>We developed a mobile system which uses geographic mapping technology to locate medical, technical, and interpersonal resources before and after a natural disaster. Residents and community leaders can upload resources they have and don’t have access to. Local response teams have discretionary access to real time data including but not limited to:</p>
+<ul>
+<li><p>Identification and location of vulnerable residents</p></li>
+<li><p>Medical data of residents that adhere to HIPAA laws</p></li>
+<li><p>Locations and contact information of residents with trade skills, large equipment, and professional behavioral backgrounds</p></li>
+<li><p>Locations of relevant resources (food, water, other supplies)</p></li>
+</ul>
+<p><strong>This system has since been used to source and deliver over 11,000 face masks to over 150 healthcare entities in Illinois during the 2020 lockdown.</strong></p>
+
+
+</section>
+
+ ]]></description>
+  <category>Context</category>
+  <category>Challenge</category>
+  <category>Solution</category>
+  <guid>https://scardata.quarto.pub/projects/4 - project-ibis/</guid>
+  <pubDate>Sun, 01 Jun 2025 17:59:24 GMT</pubDate>
+  <media:content url="https://scardata.quarto.pub/projects/4 - project-ibis/IBIS.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
