@@ -1,0 +1,53 @@
+{
+  "index.qmd": {
+    "index.html": "a21ca70b"
+  },
+  "projects/1 - company-churn-analysis/index.qmd": {
+    "index.html": "fc3d63fe"
+  },
+  "projects/2 - yrbs-data-management/index.qmd": {
+    "index.html": "996ad883"
+  },
+  "projects/3 - pandas/index.qmd": {
+    "index.html": "0dae53e3"
+  },
+  "projects/4 - project-ibis/index.qmd": {
+    "index.html": "c06a3900"
+  },
+  "projects.qmd": {
+    "projects.html": "c70a4d60"
+  },
+  "resources/r-tips-and-tricks/index.qmd": {
+    "index.html": "9d54ba6e"
+  },
+  "resources.qmd": {
+    "resources.html": "a2aaf704"
+  },
+  "services/index.qmd": {
+    "index.html": "5593a71a"
+  },
+  "sharing-ideas/1. changes-yrbs/index.qmd": {
+    "index.html": "acfb182f"
+  },
+  "sharing-ideas/2. queer-data/index.qmd": {
+    "index.html": "3d66ac33"
+  },
+  "sharing-ideas/3. native-students/index.qmd": {
+    "index.html": "325d96a4"
+  },
+  "sharing-ideas/4. findings-from-yrbs/index.qmd": {
+    "index.html": "61e16953"
+  },
+  "sharing-ideas/5. double-edged-sword/index.qmd": {
+    "index.html": "726bb013"
+  },
+  "sharing-ideas/6. data-mishaps/index.qmd": {
+    "index.html": "2444e3f9"
+  },
+  "sharing-ideas/7. using-r-to-land-the-job/index.qmd": {
+    "index.html": "8e862de9"
+  },
+  "sharing-ideas.qmd": {
+    "sharing-ideas.html": "f8b0dcc2"
+  }
+}
