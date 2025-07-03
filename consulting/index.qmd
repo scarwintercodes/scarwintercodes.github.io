@@ -3,5 +3,8 @@ title: "Consulting"
 description: "Let me help you and your team solve your issues around data management, analysis, visualization and dissemination."
 image: mark-konig-Uu5fnOkFAdA-unsplash.jpg
 categories: 
-
 ---
+
+Statistical project outline? Dashboards? Data management? Let me work with you and your team.
+
+Testimonials:
