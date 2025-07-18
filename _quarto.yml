@@ -24,7 +24,7 @@ website:
         text: Home
       
       - href: projects.qmd
-        text: Projects
+        text: Portfolio
         
       #- href: resources.qmd
       #  text: Resources

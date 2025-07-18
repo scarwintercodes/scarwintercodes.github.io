@@ -1,6 +1,6 @@
 ---
-title: "Projects"
-subtitle: "Featured projects" 
+title: "Portfolio"
+subtitle: "ScarData Portfolio" 
 listing:
   contents: projects
   feed: true
