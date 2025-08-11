@@ -8,7 +8,11 @@ image: 08.08.2025_Dashboard Screenshot.png
 
 I built an interactive Power BI dashboard to provide a proxy to assess safety of different socialization spots throughout Chicago.
 
-{{< video 08.08.2025_09.04.56_REC (1).mp4 >}}
+````{=html}
+```{=html}
+<iframe width="780" height="500" src="08.08.2025_09.04.56_REC (1).mp4" title="Chicago Food Inspection Dashboard"></iframe>
+```
+````
 
 ## Details
 
