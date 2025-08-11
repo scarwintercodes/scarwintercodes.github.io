@@ -1,0 +1,33 @@
+---
+title: "Chicago Food Inspections Dashboard"
+description: "Visualizing Chicago food inspection trends YoY through Power BI"
+image: 08.08.2025_Dashboard Screenshot.png
+---
+
+## Context
+
+I built an interactive Power BI dashboard to provide a proxy to assess safety of different socialization spots throughout Chicago.
+
+{{< video 08.08.2025_09.04.56_REC (1).mp4 >}}
+
+## Details
+
+**Data Source:**
+
+-   [Chicago's Open Data portal](https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5/about_data), connected through an OData feed.
+
+**Key features:**
+
+-   Dropdown filters for **Year** and **Establishment Category**
+
+-   Total number of **Inspections per Year** and **Total Establishments**
+
+-   Individual establishments ranked by inspection **Pass Rate**
+
+-   Bar graph featuring total establishments **by Inspection Type**
+
+-   Donut chart breaking down **inspection results** per establishment
+
+-   Breakdown of pass rates by **Establishment Risk Level**
+
+From the city's [documentation](https://data.cityofchicago.org/api/assets/BAD5301B-681A-4202-9D25-51B2CAE672FF), "Each establishment is categorized as to its risk of adversely affecting the public’s health, with 1 being the highest and 3 the lowest. The frequency of inspection is tied to this risk, with risk 1 establishments inspected most frequently and risk 3 least frequently."
