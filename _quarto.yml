@@ -40,11 +40,11 @@ website:
             target: _blank
           - icon: envelope
             text: email
-            href: mailto:scardata@gmail.com
+            href: mailto:scarwinterkelsey@proton.me
             target: _blank
 
   page-footer:
-    left: © 2025 Scar Winter Kelsey
+    left: © 2026 Scar Winter Kelsey
     right: This website is built with {{< fa heart title="a heart" >}}, [{{< fa brands github title="GitHub octocat logo" >}}](https://github.com/scarwintercodes/scarwintercodes.github.io){target=_blank}, [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
     
 format:
