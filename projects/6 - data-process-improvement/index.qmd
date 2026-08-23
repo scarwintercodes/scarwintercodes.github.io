@@ -10,9 +10,11 @@ categories:
 
 ## Context
 
-A large academic unit was running their monthly leadership reports off of 21+ manually maintained Google Sheets. Every month, someone on the team manually copied data from individual sheets into summary tables, checked that formulas hadn't broken, and emailed the "final" version to department leadership. The process took 3 to 5 days every month, just for the numbers to never quite matched from one month to the next. This meant leadership couldn't trust the data during accreditation cycles.
+A large academic unit was running their monthly leadership reports off of 21+ manually maintained Google Sheets. 
 
-They had Tableau licenses sitting unused and RStudio underutilized on one machine. They needed a system, but did not have the resources to build it.
+Every month, someone on the team manually copied data from individual sheets into summary tables, checked that formulas hadn't broken, and emailed the "final" version to department leadership. This process took 3 to 5 days every month, just for the numbers to never quite match from one month to the next. This meant leadership couldn't trust the data during accreditation cycles.
+
+They had Tableau licenses sitting unused and RStudio underutilized on one machine. They needed an expert to architect a reliable, reproducible data reporting system.
 
 ## Challenge
 
@@ -29,16 +31,6 @@ I initiated the Tableau integration, working with Information Resources to acqui
 We rebuilt the data source from scratch, taking advantage of the software migration from Qualtrics to a new evaluation system. 
 
 I led the graduate assistants writing R code to translate the new system's data into the reports leadership needed. We kept the same style conventions so leadership wouldn't have to relearn how to read the reports, but we added more robust summary statistics and anomaly detection that we could never have done in Sheets.
-
-**The workflow:**
-
-[Stream 1]  21+ Google Sheets ──► Tableau Server ──► Monthly Leadership
-                                                          Dashboards
-                                                    ▲
-                                                    │
-[Stream 2]  Qualtrics (old) ──► New Eval System ──► R Scripts ─────────┘
-                                                     (translating into
-                                                      report format)
 
 
 **Key outcomes:**
