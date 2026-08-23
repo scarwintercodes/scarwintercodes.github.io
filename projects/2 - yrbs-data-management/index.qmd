@@ -1,5 +1,5 @@
 ---
-title: "YRBS Data Management"
+title: "Academic Data Management"
 description: "Data modernization, management, and governance standards"
 image: EDIT.png
 categories: 

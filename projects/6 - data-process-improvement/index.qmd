@@ -1,5 +1,5 @@
 ---
-title: "Project Spreadsheet Eradication"
+title: "Data Reporting Modernization"
 description: "Retiring 21+ manually maintained Google Sheets and migrating evaluation data mid-stream to build a governed Tableau + R reporting system for a 700-student academic unit"
 image: dashboard_project.jpg
 categories: 
@@ -18,17 +18,17 @@ They had Tableau licenses sitting unused and RStudio underutilized on one machin
 
 Three disjointed data streams with no connection between them:
 
-- **Student Information System** — enrollment, demographics, degree progress spread across disparate, in-house data management portals.
+- **Student Information Systems** — enrollment, demographics, degree progress spread across disparate, in-house data management portals.
 - **Student evaluation data** — we were in the middle of migrating from Qualtrics to a new platform mid-project
 - **21+ Google Sheets** — manually maintained by a revolving door of temporary graduate assistants and used to generate the monthly leadership reports
-
-Different naming conventions. Different update schedules. Different people owning different pieces. A typical reporting request meant 4 to 5 hours of manual reconciliation, chasing down the person who updated a particular sheet, and hoping nobody had accidentally sorted a column or overwritten a formula.
 
 ## Solution
 
 I initiated the Tableau integration, working with Information Resources to acquire the licenses and permissions and facilitate nightly pulls from Google Sheets via connecting Tableau to Google Forms. This eliminated the reliance on manual, error-prone updates.
 
-We rebuilt the data source from scratch, taking advantage of the software migration from Qualtrics to a new evaluation system. Graduate assistants wrote R code to translate the new system's data into the reports we'd been generating manually in Google Sheets. We kept the same style conventions so leadership wouldn't have to relearn how to read the reports, but we added more robust summary statistics and anomaly detection that we could never have done in Sheets.
+We rebuilt the data source from scratch, taking advantage of the software migration from Qualtrics to a new evaluation system. 
+
+I led the graduate assistants writing R code to translate the new system's data into the reports leadership needed. We kept the same style conventions so leadership wouldn't have to relearn how to read the reports, but we added more robust summary statistics and anomaly detection that we could never have done in Sheets.
 
 **The workflow:**
 
@@ -47,5 +47,4 @@ We rebuilt the data source from scratch, taking advantage of the software migrat
 - Data inconsistencies dropped from 30%+ variance to **<1%** (single source of truth)
 - **17 manual touchpoints per report** eliminated entirely
 - **7 team members** can now answer data questions instead of 1 overworked coordinator
-- During a surprise accreditation review, the dashboards answered every data request instantly, saving an estimated **40 hours** of emergency data gathering
 - Left behind a governance playbook, version-controlled R scripts, automated anomaly detection, and a training process for new staff
