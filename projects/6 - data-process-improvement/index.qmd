@@ -1,7 +1,7 @@
 ---
 title: "Data Reporting Modernization"
 description: "Retiring 21+ manually maintained Google Sheets and migrating evaluation data mid-stream to build a governed Tableau + R reporting system for a 700-student academic unit"
-image: dashboard_project.jpg
+image: dashboard-project.jpg
 categories: 
   - "Context"
   - "Challenge"
