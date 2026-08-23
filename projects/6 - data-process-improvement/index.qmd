@@ -1,0 +1,180 @@
+# Case Study: Retiring 21+ Google Sheets with Tableau and R
+
+## How one academic unit finally got a reporting system that didn't make everyone miserable
+
+---
+
+### The Problem
+
+A university had a student services office running their monthly leadership reports off of Google Sheets. **21+ of them.** All manually maintained. All feeding into a handful of summary tables that got presented to department leadership every month.
+
+Every month, someone on the team had to manually update those summary tables. Copy from one sheet, paste into another. Check that the formulas didn't break. Double-check the numbers against the source data. Send an email to leadership with the "final" version.
+
+The numbers never quite matched from month to month. The process was fragile, time-consuming, and everyone hated it.
+
+Leadership couldn't trust the numbers during accreditation cycles. And the team was spending 3 to 5 days every month just getting the reports out the door.
+
+They had Tableau licenses. They had R installed on some machines. What they didn't have was a plan.
+
+---
+
+### The Mess
+
+Three data streams with no connection between them.
+
+1. **Student Information System** — enrollment, demographics, degree progress
+2. **Student evaluation data** — we were in the middle of migrating from Qualtrics to a new system
+3. **21+ Google Sheets** — manually maintained by a revolving door of temporary graduate assistants and used to generate the monthly leadership reports
+
+Different naming conventions. Different update schedules. Different people owning different pieces.
+
+A typical reporting request meant:
+- 2 to 3 hours of reconciling spreadsheets
+- Chasing down the person who updated a particular sheet
+- Hoping nobody had accidentally sorted a column or overwritten a formula
+- Emailing leadership the same numbers they'd asked for last month, slightly updated
+
+---
+
+### What I Actually Did
+
+I came in as a Senior Education Data Analyst. My job wasn't to write all the code. It was to make the whole thing work and to get the right people moving in the right direction.
+
+| **What I handled** | **What that meant in practice** |
+|---|---|
+| Stakeholder alignment | Sat down with academic and IT leadership to figure out what they actually needed vs. what they were asking for |
+| Tableau integration | Initiated the whole Tableau push. Worked with Information Resources to acquire the licenses and permissions. Set up the connections to pull from Google Sheets nightly |
+| Workflow design | Mapped every manual step from source to final report, then redesigned it from the ground up |
+| Team coordination | Directed 2 graduate assistants who wrote the R code to translate the student evaluation data from the new system into the reports we needed |
+| Quality control | Reviewed everything they wrote. Made sure the outputs matched the original Google Sheets conventions but with better stats and anomaly detection |
+| Training | Taught program coordinators how to read and trust the new dashboards |
+
+I built the architecture and the bridge between stakeholders. The graduate assistants handled the heavy lifting on the R side for the evaluation data migration. I made sure nothing broke and everything was reproducible.
+
+---
+
+### The Actual Workflow
+
+**Data Flow (two parallel streams):**
+
+**Stream 1 — Google Sheets to Tableau:**
+- 21+ Google Sheets (source)
+- → Nightly pulls via Google Forms connection
+- → Tableau Server
+- → Monthly Leadership Dashboards
+
+**Stream 2 — Evaluation Data Migration:**
+- Qualtrics Data (old system)
+- → Migration to New Evaluation System
+- → R Scripts (translating new system data into existing report format)
+- → Tableau Server
+- → Monthly Leadership Dashboard
+
+The Google Sheets weren't going away overnight. But instead of someone manually copying and pasting into summary tables, Tableau started pulling directly from the source sheets every night. No more manual, unreliable, copied-and-pasted updates.
+
+The evaluation data was the bigger lift. We were in the middle of a software migration from Qualtrics to a new platform. The graduate assistants wrote R code to translate the new system's output into the reports we'd been generating manually in Google Sheets. We kept the same style conventions to ease interpretability, but we added more robust summary statistics and anomaly detection that we could never have done in Sheets.
+
+---
+
+### How We Fixed It
+
+#### Phase 1: Inventory and Audit (Weeks 1–3)
+
+We went through every Google Sheet and asked:
+- What is this for?
+- Who owns it?
+- Where does the data come from?
+- What feeds into what?
+
+We documented the whole thing. Mapped the data lineage. Figured out which sheets were actually being used and which were just sitting there.
+
+**Key decision:** We weren't going to try to migrate everything at once. We focused on the monthly leadership reports first, A.K.A. the ones that were causing the most pain.
+
+#### Phase 2: Tableau Integration (Weeks 4–6)
+
+I initiated the Tableau push. This meant working with Information Resources to get the right licenses and permissions. Once that was in place, I set up Tableau to pull directly from the Google Sheets using Google Forms connections for nightly pulls.
+
+This eliminated the need for manual import/export that depended on the right person being in the office that day. The data refreshed automatically every night.
+
+#### Phase 3: Evaluation Data Migration (Weeks 7–12)
+
+The student evaluation data was the trickier piece. We were migrating from Qualtrics to a new platform, and the data formats weren't the same.
+
+The graduate assistants wrote R code to translate the new system's data into the report format we'd been using. We kept the same visual conventions such as table headers, column order, color scheme, and summary rows so leadership wouldn't have to relearn how to read the reports. But we added:
+- More robust summary statistics
+- Automated anomaly detection (so we could flag unusual patterns without someone manually scanning)
+
+**My role:** I told the assistants what the reports needed to look like. I reviewed their code. I made sure the outputs matched what leadership was used to seeing, but better.
+
+#### Phase 4: Governance and Training (Weeks 13–16)
+
+- Published the dashboards to Tableau Server with scheduled nightly refreshes
+- Set up row-level security so program coordinators could only see their own students
+- Wrote a governance playbook covering:
+  - Naming conventions for dashboards and data sources
+  - Refresh schedules and failure notifications
+  - How to request new dashboard features
+  - Where to find the underlying R scripts in the shared repository
+- Trained program coordinators on how to read and use the new dashboards
+
+---
+
+### What Changed
+
+| **Metric** | **Before** | **After** |
+|---|---|---|
+| Time to generate monthly leadership reports | 3–5 days | **Nightly refresh** (done automatically) |
+| Data inconsistencies | 30%+ variance | **<1%** (single source of truth) |
+| Manual touchpoints per report | 17 | **0** |
+| Stakeholder trust in data | Low ("verify everything") | High ("we use this for accreditation") |
+| People who could answer data questions | 1 (overworked coordinator) | **7** (anyone with Tableau access) |
+
+**Bonus:** During a surprise accreditation review, the dashboards answered every data request from the review committee instantly. Saved the office about 40 hours of panicked data gathering.
+
+---
+
+### What I Left Behind
+
+- A Tableau Server setup that refreshed itself every night
+- R scripts that translated evaluation data from the new system into a consistent, readable format
+- A governance playbook documenting everything
+- Automated anomaly detection that flagged unusual patterns without anyone having to scan spreadsheets
+- A training process so new staff could get up to speed without relying on institutional memory
+
+---
+
+### What This Taught Me
+
+This project worked because we didn't try to build the perfect system on day one. We focused on the monthly leadership reports first, got that working, and then expanded.
+
+I also learned that institutional politics are what they are. You can build a great system, and someone else will present it as their own. That's fine. The system works. The experience is mine.
+
+The skills I used here:
+- Architecting workflows
+- Coordinating technical teams
+- Bridging stakeholders
+- Building governance
+- Training users
+
+...are the same ones I bring to every fractional client.
+
+---
+
+### Tech Stack
+
+- **Google Sheets** — source data for enrollment and program tracking
+- **Tableau Desktop** — dashboard design
+- **Tableau Server** — publication, nightly pulls via Google Forms connection, row-level security
+- **R** — translation and transformation of student evaluation data from the new system into report format
+- **GitHub** — version control for R scripts
+- **Qualtrics → New Evaluation System** — data migration that we navigated mid-project
+
+---
+
+### Let's Talk
+
+If your organization is drowning in spreadsheets, I've been there. I can build the bridge to a governed, automated future without requiring you to hire a full data engineering team.
+
+I'll do the work, document everything, and leave you with a system that runs itself.
+
+**[Contact me]** | **[View more case studies]** | **[Schedule a discovery call]**
