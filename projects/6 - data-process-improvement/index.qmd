@@ -20,9 +20,9 @@ They had Tableau licenses sitting unused and RStudio underutilized on one machin
 
 Three disjointed data streams with no connection between them:
 
-- **Student Information Systems** — enrollment, demographics, degree progress spread across disparate, in-house data management portals.
-- **Student evaluation data** — we were in the middle of migrating from Qualtrics to a new platform mid-project
-- **21+ Google Sheets** — manually maintained by a revolving door of temporary graduate assistants and used to generate the monthly leadership reports
+- Student Information Systems — enrollment and demographics spread across disparate, in-house data management portals.
+- Student evaluation data — we were in the middle of migrating from Qualtrics to a new platform mid-project
+- 21+ Google Sheets — manually maintained by a revolving door of temporary graduate assistants and used to generate the monthly leadership reports
 
 ## Solution
 
@@ -31,12 +31,3 @@ I initiated the Tableau integration, working with Information Resources to acqui
 We rebuilt the data source from scratch, taking advantage of the software migration from Qualtrics to a new evaluation system. 
 
 I led the graduate assistants writing R code to translate the new system's data into the reports leadership needed. We kept the same style conventions so leadership wouldn't have to relearn how to read the reports, but we added more robust summary statistics and anomaly detection that we could never have done in Sheets.
-
-
-**Key outcomes:**
-
-- Monthly leadership reports now refresh **nightly** instead of taking 3–5 days
-- Data inconsistencies dropped from 30%+ variance to **<1%** (single source of truth)
-- **17 manual touchpoints per report** eliminated entirely
-- **7 team members** can now answer data questions instead of 1 overworked coordinator
-- Left behind a governance playbook, version-controlled R scripts, automated anomaly detection, and a training process for new staff
