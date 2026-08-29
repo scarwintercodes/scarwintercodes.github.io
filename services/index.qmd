@@ -12,8 +12,8 @@ I am available to work with individuals, non-profits, corporations, and universi
     -   Interview prep
     -   Resume writing
 -   Data analysis:
-    -   Mentoring: Beginner to Intermediate R, Python
+    -   Mentoring: Beginner to Intermediate R, Python, Tableau
     -   Services: visualizations, code review and statistical analysis
-    -   AI training and prompt engineering
+    -   Consulting: Have data and don't know what to do with it? Let's connect to devise a gameplan together.
 
 **To get started**, reach out to me at scardata\@gmail.com.

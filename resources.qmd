@@ -1,5 +1,5 @@
 ---
-title: "R Tips and Tricks"
+title: "Landing Page for Resources"
 ---
 
 The #rstats and climate communities are full of talented folks who've written very helpful guides and resources. I've compiled as many as I could and organized them by type of resources below.
