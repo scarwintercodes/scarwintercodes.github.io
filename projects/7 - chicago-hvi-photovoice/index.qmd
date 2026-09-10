@@ -1,0 +1,21 @@
+---
+title: "UNDER CONSTRUCTION: Addressing Heat Disparities Across Chicago"
+description: "Retiring 21+ manually maintained Google Sheets and migrating evaluation data mid-stream to build a governed Tableau + R reporting system for a 700-student academic unit"
+image: dashboard-project.jpg
+categories: 
+  - "Context"
+  - "Challenge"
+  - "Solution"
+---
+
+## Context
+
+The City of Chicago houses several environmental disparities depending on which part of the city you are in.
+
+## Challenge
+
+We needed to collect and synthesis on-the-ground temperature data, and present it in a way that resonates with the community.
+
+## Solution
+
+StoryMap for Photovoice, gallery events.
