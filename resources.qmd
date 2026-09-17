@@ -2,6 +2,6 @@
 title: "Landing Page for Resources"
 ---
 
-The #rstats and climate communities are full of talented folks who've written very helpful guides and resources. I've compiled as many as I could and organized them by type of resources below.
+I believe in knowledge stewardship, or the art of maintaining and distributing information for individuals and organizations who would benefit from having them. Over the years I've compiled a lot of resources across several domains spanning data analytics, climate science, open data, and digital privacy.
 
 <https://ucsb-meds.github.io/creating-quarto-websites/>
