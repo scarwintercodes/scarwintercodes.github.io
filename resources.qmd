@@ -4,4 +4,12 @@ title: "Landing Page for Resources"
 
 I believe in knowledge stewardship, or the art of maintaining and distributing information for individuals and organizations who would benefit from having them. Over the years I've compiled a lot of resources across several domains spanning data analytics, climate science, open data, and digital privacy.
 
+## Data Analytics Resources
+
 <https://ucsb-meds.github.io/creating-quarto-websites/>
+
+## Climate Science
+
+## Open Data
+
+## Digital Privacy
