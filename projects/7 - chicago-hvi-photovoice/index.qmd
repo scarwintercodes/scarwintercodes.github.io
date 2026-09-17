@@ -1,6 +1,6 @@
 ---
-title: "UNDER CONSTRUCTION: Addressing Heat Disparities Across Chicago"
-description: "Retiring 21+ manually maintained Google Sheets and migrating evaluation data mid-stream to build a governed Tableau + R reporting system for a 700-student academic unit"
+title: "UAddressing Heat Disparities Across Chicago"
+description: "Conducting city-wide mixed-methods data collection to paint a picture of climate disparities and the personal daily impacts on Chicagoans"
 image: dashboard-project.jpg
 categories: 
   - "Context"
@@ -10,7 +10,7 @@ categories:
 
 ## Context
 
-The City of Chicago houses several environmental disparities depending on which part of the city you are in.
+The City of Chicago houses several environmental disparities that are glaringly obvious from both a quantitative and qualitative analysis.
 
 ## Challenge
 
