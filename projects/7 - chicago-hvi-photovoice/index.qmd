@@ -1,5 +1,5 @@
 ---
-title: "UAddressing Heat Disparities Across Chicago"
+title: "Addressing Heat Disparities Across Chicago"
 description: "Conducting city-wide mixed-methods data collection to paint a picture of climate disparities and the personal daily impacts on Chicagoans"
 image: dashboard-project.jpg
 categories: 
